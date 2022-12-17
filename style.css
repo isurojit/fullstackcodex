@@ -1,0 +1,44 @@
+body {
+  font-family: "Mitr", sans-serif;
+}
+
+/* navbar */
+/* .navbar {
+} */
+
+.nav-link {
+  color: white !important;
+  font-size: 1 rem;
+}
+.nav-item{
+  background-color: #3737f3;
+  border-radius: 1px solid #000000;
+  border-radius: 25px;
+}
+
+.nav-item:not(:first-child):not(:last-child) {
+  margin: 0rem .3rem;
+}
+
+.navbar-brand {
+  font-family: "Bungee Inline", cursive;
+  /* color: white !important;*/
+  font-size: 2rem;
+}
+
+.navbar-toggler {
+  /* background-color: rgb(41, 230, 255); */
+}
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  /* background-color: white; */
+}
+
+.dropdown-menu {
+  /* background-color: #000080; /* shade of blue */
+  color: white;
+  border-bottom: 2px solid white; */
+}
+.dropdown-item {
+  /* color: white; */
+}
