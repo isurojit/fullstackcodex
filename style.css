@@ -16,11 +16,26 @@ body {
   top: 50px;
 }
 
-.nav-link {
-  color: rgb(10, 10, 10) !important;
-  font-size: 1 rem;
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
 }
 
+.navbar-inverse {
+  background-color: transparent;
+}
+
+.nav-link {
+  color: rgb(10, 10, 10) !important;
+  font-size: 1.2rem;
+}
+
+.navbar-scrolled {
+  background-color: #333;
+}
 .nav-item .active {
   background-color: #8383fb !important;
   border-radius: 1px solid #000000;
@@ -37,7 +52,7 @@ body {
 .navbar-brand {
   font-family: "Bungee Inline", cursive;
   /* color: white !important;*/
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .navbar-toggler {
